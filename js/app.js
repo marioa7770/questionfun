@@ -8,13 +8,13 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-//function sum(a, b) { //eslint-disable-line
-//   let sum = a + b;
-//   let message = `The sum of ${a} and ${b} is ${sum}.`;
-//   //console.log(sum,message);
+function sum(a, b) { //eslint-disable-line
+   let sum = a + b;
+   let message = `The sum of ${a} and ${b} is ${sum}.`;
+   //console.log(sum,message);
 //   return [sum, message];
-// }
-// let result = sum(4,7);
+ }
+ let result = sum(4,7);
 // console.log(result);
 
 // // Here is the test for sum(); uncomment it to run it
@@ -31,19 +31,19 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function multiply(a, b) { //eslint-disable-line
-  let times = a*b;
+ function multiply(a, b) { //eslint-disable-line
+ let times = a*b;
   let message = `The product of $
   {a} and ${b} is ${times}.`;
-  console.log(times,message);
-  return[times,message];
+//   //console.log(times,message);
+//   return[times,message];
 
-}
-let result2 = multiply(5,9);
-console.log(result2);
+ }
+ let result2 = multiply(5,9);
+// console.log(result2);
 
-// Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+// // Here is the test for multiply(); uncomment it to run it
+//  testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -61,10 +61,9 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
 
-}
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
+ //testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
